@@ -31,7 +31,7 @@ function Hero() {
       ref={container}
       className="w-full overflow-hidden bg-[#f5f5f7] lg:h-screen h-[60vh]"
     >
-      <h1 className="hidden lg:block absolute top-1/2 text-[12rem] font-bold text-[#dadada] left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <h1 style={{fontFamily:"montserrat,bold"}} className="hidden lg:block absolute top-1/2 text-[12rem] font-bold text-[#dadada] left-1/2 -translate-x-1/2 -translate-y-1/2">
         iCoverWorld
       </h1>
 

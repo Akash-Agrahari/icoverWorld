@@ -78,7 +78,7 @@ function Nav() {
         className=" select-none bg-white nav-main z-[999] w-full fixed"
       >
         <div
-          style={{ fontFamily: "montserrat,Bold" }}
+          style={{ fontFamily: "montserrat,bold" }}
           className="relative  w-full py-2 px-5  flex items-center  justify-between "
         >
           <h1 className="left-nav text-xl text-[#1d1d1f]  xl:text-2xl md:text-lg sm:text-sm  lg:text-xl 2xl:text-3xl lg:font-medium font-semibold tracking-tight">

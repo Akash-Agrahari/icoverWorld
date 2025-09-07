@@ -6,7 +6,7 @@ import Product from "./components/Product";
 function Page2() {
   return (
     <div
-      style={{ fontFamily: "Montserrat, Bold" }}
+      style={{ fontFamily: "montserrat,bold" }}
       className="w-full h-screen bg-[#f5f5f7]"
     >
       <div className="w-full py-2 flex flex-wrap  lg:justify-start items-center lg:gap-0 gap-2 justify-center bg-white">
@@ -101,7 +101,7 @@ function Page2() {
           </picture>
           <div className="absolute gap-2  w-full flex text-left top-5 flex-col h-full py-2 lg:py-5 items-center  lg:justify-center lg:items-start lg:left-2/3  lg:gap-2 text-[#1d1d1f]">
             <div className="flex lg:p-0 px-5 flex-col gap-1 items-center justify-center" >
-            <h1 className="lg:text-5xl  text-3xl lg:font-medium tracking-tighter">
+            <h1 style={{fontFamily:'montserrat,medium'}} className="lg:text-5xl  text-3xl lg:font-medium tracking-tighter">
               Accessories in a <br className="hidden lg:block" /> snap{" "}
             </h1>
             <p className="lg:text-xl  text-lg tracking-tight  text-center lg:text-left ">
@@ -124,7 +124,7 @@ function Page2() {
         </div>
       </div>
       <div className="w-full text-[#1d1d1f] bg-[#f5f5f7] flex flex-col gap-10 pt-10 pb-10 px-2">
-        <h1 className="text-2xl tracking-tighter mx-5 lg:m-10 font-semibold sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
+        <h1 style={{fontFamily:'montserrat,semibold'}} className="text-2xl tracking-tighter mx-5 lg:m-10 font-semibold sm:text-xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
           Get to know our products.
         </h1>
         <div className="flex gap-10  justify-evenly lg:justify-center  items-start flex-wrap" >
